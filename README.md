@@ -79,7 +79,9 @@ python src/sit746_guided_diffusion/run_sweeps.py --sweep t_start --arch resnet  
 
 Parameter descriptions are in each script's header and `--help`; hardware assumptions and the full design are in `docs/research_design.md`.
 
-## Not (yet) in this repo
+
+<!-- ## Not (yet) in this repo
 DiffPure-style purification module and the purification-robustness comparison; the MNIST proof-of-concept;
 the ImageNet-pretrained-victim experiment; Neural Cleanse / STRIP / ANP evaluation. (Described in the paper; no code was
-available when this repo was assembled.)
+available when this repo was assembled.) -->
+
