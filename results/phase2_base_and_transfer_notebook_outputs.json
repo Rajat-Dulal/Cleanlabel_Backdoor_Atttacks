@@ -1,0 +1,21 @@
+{
+  "_provenance": "Parsed from saved outputs. Both notebooks call generate_poison_set(..., t_start=250) with the default guidance_scale=20 (NOT t_start=100 / g=100 as stated for Table IV in the paper). 25 poisons, cat->dog, seed 101.",
+  "same_arch_base_notebook": {
+    "victim": "SurrogateResNet",
+    "t_start": 250,
+    "guidance": 20,
+    "clean_trained_acc": 0.7247,
+    "poison_trained_acc": 0.781,
+    "clean_model_asr": 0.008,
+    "poisoned_model_asr": 0.337
+  },
+  "cross_arch_transfer_notebook": {
+    "victim": "TransferResNet",
+    "t_start": 250,
+    "guidance": 20,
+    "clean_trained_acc": 0.8051,
+    "poison_trained_acc": 0.7527,
+    "clean_model_asr": 0.075,
+    "poisoned_model_asr": 0.161
+  }
+}

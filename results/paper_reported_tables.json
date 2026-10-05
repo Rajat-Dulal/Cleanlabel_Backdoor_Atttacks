@@ -1,0 +1,38 @@
+{
+  "_provenance": "Transcribed by hand from paper/IEEE_Final.pdf (Tables I, III, IV). Rows marked 'matches_notebook': see docs/reproducibility_notes.md.",
+  "table_III_caption": "CIFAR-10, dog->cat, guidance scale = 100, 25 poison samples (as printed in the paper)",
+  "table_III": [
+    {
+      "t_start": 50,
+      "clean_acc": 0.7145,
+      "poison_acc": 0.7834,
+      "clean_asr": 0.008,
+      "poisoned_asr": 0.283,
+      "matches_notebook": "yes (guidance 20 run)"
+    },
+    {
+      "t_start": 100,
+      "clean_acc": 0.7289,
+      "poison_acc": 0.7874,
+      "clean_asr": 0.007,
+      "poisoned_asr": 0.308,
+      "matches_notebook": "NO - saved notebook run gives clean acc 0.7145 / poison acc 0.7514 / ASR 0.018"
+    },
+    {
+      "t_start": 300,
+      "clean_acc": 0.7145,
+      "poison_acc": 0.7008,
+      "clean_asr": 0.008,
+      "poisoned_asr": 0.45,
+      "matches_notebook": "yes (guidance 20 run)"
+    }
+  ],
+  "table_IV_cross_arch": {
+    "t_start_as_printed": 100,
+    "clean_acc": 0.8051,
+    "poison_acc": 0.7527,
+    "clean_asr": 0.075,
+    "poisoned_asr": 0.161,
+    "matches_notebook": "numbers yes; settings no (notebook used t_start=250, guidance 20)"
+  }
+}

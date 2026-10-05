@@ -1,0 +1,17 @@
+{
+  "_provenance": "Printed outputs of notebooks/Phase1_Backdoor_FeatureInversion_via_PGD.ipynb (cells 16 and 22); matches paper Table I.",
+  "target_class": 3,
+  "base_class": 5,
+  "lambda_interp": 0.35,
+  "epsilon": 0.03137254901960784,
+  "poison_rate": 0.05,
+  "pgd_steps": 60,
+  "pgd_lr": 0.02,
+  "n_poison": 250,
+  "surrogate_epochs": 15,
+  "victim_epochs": 20,
+  "cda": 0.8037,
+  "asr": 0.145,
+  "mean_ssim_sample20": 0.9993,
+  "linf_violations": 0
+}

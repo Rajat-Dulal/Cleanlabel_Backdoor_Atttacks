@@ -1,0 +1,14 @@
+# Unpinned: the original work ran on free-tier Kaggle/Colab (T4) with whatever
+# versions were current.
+torch
+torchvision
+diffusers
+transformers
+accelerate
+lpips
+numpy
+matplotlib
+seaborn
+scikit-learn
+scikit-image
+tqdm

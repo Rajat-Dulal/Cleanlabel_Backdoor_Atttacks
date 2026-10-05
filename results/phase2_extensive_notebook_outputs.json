@@ -1,0 +1,133 @@
+{
+  "_provenance": "Parsed from saved cell outputs of notebooks/Phase2_Extensive_Experimentation.ipynb. Single run, single seed (101), single random target image per point, 8-epoch victims, same-architecture victim, guidance_scale=20 (the value passed in the notebook), cat poisons, dog targets; see docs/reproducibility_notes.md for how this differs from the paper. ASR = fraction of 1000 dog test images predicted cat. Clean-trained baseline: acc 0.7145, ASR 0.008 (8/1000) for ALL points.",
+  "base_class": "cat",
+  "target_class": "dog",
+  "victim_arch": "surrogate",
+  "lpips_weight": 0.15,
+  "sweep_t_start": [
+    {
+      "t_start": 50,
+      "num_poisons": 25,
+      "guidance": 20,
+      "clean_trained_acc": 0.7145,
+      "poison_trained_acc": 0.7834,
+      "clean_model_asr": 0.008,
+      "poisoned_model_asr": 0.283,
+      "asr_increase_pp": 27.5
+    },
+    {
+      "t_start": 100,
+      "num_poisons": 25,
+      "guidance": 20,
+      "clean_trained_acc": 0.7145,
+      "poison_trained_acc": 0.7514,
+      "clean_model_asr": 0.008,
+      "poisoned_model_asr": 0.018,
+      "asr_increase_pp": 1.0
+    },
+    {
+      "t_start": 200,
+      "num_poisons": 25,
+      "guidance": 20,
+      "clean_trained_acc": 0.7145,
+      "poison_trained_acc": 0.7688,
+      "clean_model_asr": 0.008,
+      "poisoned_model_asr": 0.1,
+      "asr_increase_pp": 9.2
+    },
+    {
+      "t_start": 300,
+      "num_poisons": 25,
+      "guidance": 20,
+      "clean_trained_acc": 0.7145,
+      "poison_trained_acc": 0.7008,
+      "clean_model_asr": 0.008,
+      "poisoned_model_asr": 0.45,
+      "asr_increase_pp": 44.2
+    }
+  ],
+  "sweep_num_poisons": [
+    {
+      "num_poisons": 25,
+      "t_start": 200,
+      "guidance": 20,
+      "clean_trained_acc": 0.7145,
+      "poison_trained_acc": 0.7802,
+      "clean_model_asr": 0.008,
+      "poisoned_model_asr": 0.263,
+      "asr_increase_pp": 25.5
+    },
+    {
+      "num_poisons": 100,
+      "t_start": 200,
+      "guidance": 20,
+      "clean_trained_acc": 0.7145,
+      "poison_trained_acc": 0.7514,
+      "clean_model_asr": 0.008,
+      "poisoned_model_asr": 0.007,
+      "asr_increase_pp": -0.1
+    },
+    {
+      "num_poisons": 250,
+      "t_start": 200,
+      "guidance": 20,
+      "clean_trained_acc": 0.7145,
+      "poison_trained_acc": 0.6984,
+      "clean_model_asr": 0.008,
+      "poisoned_model_asr": 0.028,
+      "asr_increase_pp": 2.0
+    },
+    {
+      "num_poisons": 500,
+      "t_start": 200,
+      "guidance": 20,
+      "clean_trained_acc": 0.7145,
+      "poison_trained_acc": 0.6903,
+      "clean_model_asr": 0.008,
+      "poisoned_model_asr": 0.205,
+      "asr_increase_pp": 19.7
+    }
+  ],
+  "sweep_guidance": [
+    {
+      "guidance": 10,
+      "num_poisons": 25,
+      "t_start": 200,
+      "clean_trained_acc": 0.7145,
+      "poison_trained_acc": 0.7512,
+      "clean_model_asr": 0.008,
+      "poisoned_model_asr": 0.083,
+      "asr_increase_pp": 7.5
+    },
+    {
+      "guidance": 20,
+      "num_poisons": 25,
+      "t_start": 200,
+      "clean_trained_acc": 0.7145,
+      "poison_trained_acc": 0.7102,
+      "clean_model_asr": 0.008,
+      "poisoned_model_asr": 0.083,
+      "asr_increase_pp": 7.5
+    },
+    {
+      "guidance": 30,
+      "num_poisons": 25,
+      "t_start": 200,
+      "clean_trained_acc": 0.7145,
+      "poison_trained_acc": 0.7625,
+      "clean_model_asr": 0.008,
+      "poisoned_model_asr": 0.034,
+      "asr_increase_pp": 2.6
+    },
+    {
+      "guidance": 40,
+      "num_poisons": 25,
+      "t_start": 200,
+      "clean_trained_acc": 0.7145,
+      "poison_trained_acc": 0.7916,
+      "clean_model_asr": 0.008,
+      "poisoned_model_asr": 0.067,
+      "asr_increase_pp": 5.9
+    }
+  ]
+}

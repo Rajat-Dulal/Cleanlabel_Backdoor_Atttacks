@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+# Large / regenerable artefacts
+data/cifar-10-batches-py/
+data/cifar-10-python.tar.gz
+data/checkpoints/*.pt
+data/checkpoints/*.pth
+data/poisons/*.pt
+!data/**/.gitkeep
